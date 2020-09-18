@@ -1,0 +1,148 @@
+.nav {
+	position: absolute;
+	top: 15px;
+	z-index: 99;
+	left: 0;
+	right: 0;
+}
+.uk-sticky-placeholder {
+	height: 0 !important;
+}
+.top-wrap::before, .overlay-wrap::before {
+	position: absolute;
+	top:0;
+	right:0;
+	left: 0;
+	bottom: 0;
+	content: '';
+	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
+}
+.top-wrap-height {
+	height: 80vh;
+	min-height: 460px;
+	transition: height 0.25s;
+}
+.uk-subnav-pill > * > :first-child {
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.top-container {
+	z-index: 2;
+}
+.uk-logo img {
+	height: 38px;
+}
+.subtitle-text {
+	font-size: 1.2em;
+	opacity: 0.7;
+	font-weight: 300;
+}
+.logos-grid img {
+	display: block;
+	width: 60px;
+	margin: 0 auto;
+	filter:  grayscale(100%);
+	transition: filter 0.25s;
+}
+.logos-grid img:hover {
+	display: block;
+	width: 60px;
+	margin: 0 auto;
+	filter:  grayscale(0);
+}
+
+#mboto{
+	height: 32%;
+	width: 60%;
+	border-radius:50px ;
+	-webkit-border-radius:50px ;
+	-moz-border-radius:50px ;
+	-ms-border-radius:50px ;
+	-o-border-radius:50px ;
+}
+/* #stream{
+	text-align: center;
+} */
+
+
+/* cards css */
+
+
+/* Demo 2 - Sadie Effect */
+.sadie-box {
+    background-color: rgba(29, 49, 70, 1);
+    position: relative;
+    overflow: hidden;
+}
+.sadie-box img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.sadie-box .sadie-caption:before {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 105%; 
+    height: 105%;
+    background: linear-gradient(to bottom, rgba(29, 49, 70, 0) 0%, rgba(29, 49, 70, 0.8) 75%);
+    content: ''; 
+    opacity: 0; 
+    transform: translate3d(0, 50%, 0); 
+    transition: all 0.35s ease;
+}
+.sadie-box .sadie-caption .sadie-title {
+    position: absolute; 
+    top: 50%; 
+    left: 0%; 
+    width: 100%; 
+    height: auto;
+    color: rgba(29, 49, 70, 1); 
+    transition: transform 0.35s, color 0.35s;
+    transform: translate3d(0, -50%, 0);
+    font-family: 'DM Serif Display', serif; 
+    font-weight: normal; 
+    font-size: 30px;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    text-align: center;
+}
+.sadie-box .sadie-caption .sadie-desc {
+    position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 30px;
+	width: 100%;
+	opacity: 0;
+	transform: translate3d(0,10px,0);
+    transition: all 0.35s ease;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: normal; 
+    font-size: 0.75rem;
+    text-transform: uppercase; 
+    text-decoration: none; 
+    text-align: center;
+    color: #FFFFFF;
+}
+.sadie-box:hover .sadie-caption:before {
+    opacity: 1;
+	transform: translate3d(0,0,0);
+}
+.sadie-box:hover .sadie-caption .sadie-title {
+    color: #fff;
+	transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+.sadie-box:hover .sadie-caption .sadie-desc {
+	transform: translate3d(0,0,0);
+	opacity: 1;
+}
+
+/* Demo 3 - Honey Effect */
+
+/* modal styles */
+.modal-title{
+	font-size: 30px;
+	color: darkblue;
+	font-weight: bolder;
+}
