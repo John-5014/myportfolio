@@ -148,7 +148,7 @@
 }
 
 /* loader */
-.no-js #loader { display: none;  }
+/* .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
 	position: fixed;
@@ -157,7 +157,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 99;
-	background: url(../img/ajax_loading_earth.gif) center no-repeat #fff;
-}
+	background: url(../img/805.gif) center no-repeat #fff;
+} */
 
 
